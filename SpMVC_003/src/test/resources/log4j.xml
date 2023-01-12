@@ -11,7 +11,7 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="com.han.addr">
+	<logger name="com.callor.contact">
 		<level value="info" />
 	</logger>
 	
