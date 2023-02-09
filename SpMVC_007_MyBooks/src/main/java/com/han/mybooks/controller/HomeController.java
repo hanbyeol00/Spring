@@ -1,4 +1,4 @@
-package com.han.mybooks;
+package com.han.mybooks.controller;
 
 import java.util.Locale;
 
@@ -31,7 +31,7 @@ public class HomeController {
 		bookDto.setIsbn("9700001");
 		bookDto.setTitle("자바스크립트 완성");
 		bookDto.setAuthor("금강성");
-		bookDto.setDiscount("9000");
+		bookDto.setDiscount(9000);
 		bookDto.setPublisher("이지즈");
 
 		model.addAttribute("BOOK", bookDto);
@@ -49,7 +49,7 @@ public class HomeController {
 		bookDto.setIsbn("9700001");
 		bookDto.setTitle("자바스크립트 완성");
 		bookDto.setAuthor("금강성");
-		bookDto.setDiscount("9000");
+		bookDto.setDiscount(9000);
 		bookDto.setPublisher("이지즈");
 		return bookDto;
 	}
